@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_on_imalat"
+        android:enabled="true"
+        android:icon="@drawable/ic_menu_slideshow"
+        android:title="Ön İmalat"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_imalat"
+        android:enabled="true"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="İmalat"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_kaynak"
+        android:enabled="true"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="Kaynak"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_sevk"
+        android:enabled="true"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="Sevk"
+        app:showAsAction="ifRoom" />
+</menu>
